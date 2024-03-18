@@ -9,6 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <style>
+        :root{
+          background-color: white;
+          font-family: 'Lato';
+        }
+    </style>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -55,52 +61,56 @@
 
     <main>
         <!-- banner section  -->
-      <section class="max-w-screen-xl mx-auto">
+      <section class="max-w-[640px] py-6 lg:max-w-screen-xl mx-auto">
         <div class="carousel w-full">
           <div id="slide1" class="carousel-item relative w-full">
+            <div class="absolute w-full h-full bg-gradient-to-b from-black to-transparent z-10 opacity-80"></div>
             <img src="./images/banner1.png" class="w-full" />
-            <div class=" absolute z-20 top-2/4 left-2/4 translate-x-[-50%] translate-y-[-75%] text-center">
-              <h1 class="text-6xl font-bold text-white text-center ">Exotic tastes at your doorstep</h1>
-              <p class="py-6 font-medium text-white text-xl">We supply highly quality organic products</p>
-              <button class="px-6 py-5 rounded-lg bg-[#F85559] font-bold text-xl text-white text-center">Shop Now</button>
+            <div class=" absolute z-20 top-2/4 left-2/4 translate-x-[-50%] translate-y-[-0%] lg:translate-x-[-50%] translate-y-[-75%] text-center">
+              <h1 class="text-2xl lg:text-6xl font-extrabold text-white text-center ">Exotic tastes at your doorstep</h1>
+              <p class=" py-0 lg:py-6 font-normal lg:font-medium text-white text-sm lg:text-xl">We supply highly quality organic products</p>
+              <button class="px-2 lg:px-5 py-2 lg:py-3 rounded-lg bg-[#F85559] font-normal lg:font-semibold font-semibold text-base lg:text-xl text-white text-center">Shop Now</button>
             </div>
-            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 z-20">
               <a href="#slide4" class="btn btn-circle">❮</a> 
               <a href="#slide2" class="btn btn-circle">❯</a>
             </div> 
           </div> 
           <div id="slide2" class="carousel-item relative w-full">
+            <div class="absolute w-full h-full bg-gradient-to-b from-black to-transparent z-10 opacity-80"></div>
             <img src="./images/banner2.png" class="w-full" />
-            <div class=" absolute z-20 top-2/4 left-2/4 translate-x-[-50%] translate-y-[-75%] text-center">
+            <div class=" absolute z-20 top-2/4 left-2/4 lg:translate-x-[-50%] translate-y-[-75%] text-center">
               <h1 class="text-6xl font-bold text-white text-center ">Exotic tastes at your doorstep</h1>
               <p class="py-6 font-medium text-white text-xl">We supply highly quality organic products</p>
-              <button class="px-6 py-5 rounded-lg bg-[#F85559] font-bold text-xl text-white text-center">Shop Now</button>
+              <button class="px-2 lg:px-5 py-2 lg:py-3 rounded-lg bg-[#F85559] font-normal lg:font-semibold text-sm lg:text-xl text-white text-center">Shop Now</button>
             </div>
-            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <div class=" z-20 absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide1" class="btn btn-circle">❮</a> 
               <a href="#slide3" class="btn btn-circle">❯</a>
             </div>
           </div> 
           <div id="slide3" class="carousel-item relative w-full">
+            <div class="absolute w-full h-full bg-gradient-to-b from-black to-transparent z-10 opacity-80"></div>
             <img src="./images/banner3.png" class="w-full" />
             <div class=" absolute z-20 top-2/4 left-2/4 translate-x-[-50%] translate-y-[-75%] text-center">
               <h1 class="text-6xl font-bold text-white text-center ">Exotic tastes at your doorstep</h1>
               <p class="py-6 font-medium text-white text-xl">We supply highly quality organic products</p>
-              <button class="px-6 py-5 rounded-lg bg-[#F85559] font-bold text-xl text-white text-center">Shop Now</button>
+              <button class="px-5 py-3 rounded-lg bg-[#F85559] font-semibold text-xl text-white text-center">Shop Now</button>
             </div>
-            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <div class="z-20 absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide2" class="btn btn-circle">❮</a> 
               <a href="#slide4" class="btn btn-circle">❯</a>
             </div>
           </div> 
           <div id="slide4" class="carousel-item relative w-full">
+            <div class="absolute w-full h-full bg-gradient-to-b from-black to-transparent z-10 opacity-80"></div>
             <img src="./images/banner4.png" class="w-full" />
             <div class=" absolute z-20 top-2/4 left-2/4 translate-x-[-50%] translate-y-[-75%] text-center">
               <h1 class="text-6xl font-bold text-white text-center ">Exotic tastes at your doorstep</h1>
               <p class="py-6 font-medium text-white text-xl">We supply highly quality organic products</p>
-              <button class="px-6 py-5 rounded-lg bg-[#F85559] font-bold text-xl text-white text-center">Shop Now</button>
+              <button class="px-5 py-3 rounded-lg bg-[#F85559] font-semibold text-xl text-white text-center">Shop Now</button>
             </div>
-            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <div class="z-20 absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide3" class="btn btn-circle">❮</a> 
               <a href="#slide1" class="btn btn-circle">❯</a>
             </div>
